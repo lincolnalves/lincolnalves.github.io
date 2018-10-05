@@ -19,9 +19,7 @@
     <link rel="stylesheet" href="css/ionicons.min.css">
 
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-    
+    <link rel="stylesheet" href="css/jquery.timepicker.css"> 
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
@@ -70,17 +68,15 @@
                 <p>Dando continuidade ao trabalho desenvolvido no projeto Hero - Marketplace, trabalhamos para criar um gerenciador financeiro fácil de usar e conectado às reais dificuldades das micro e pequenas empresas. Além disso o gerenciador deveria ter como um dos principais objetivos a entrega de documentos e informações necessárias aos contadores de forma correta, completa e no prazo</p>
                 <h6>Meu papel</h6>
                 <p>Pesquisas , concepção de produto, prototipagem, teste com usuários, visual design.</p>
-                 <h6>Ano</h6>
-                <p>2017-2018</p>
               </div>
-                 <img class="imagem-projeto" src="https://www.4devs.com.br/4devs_gerador_imagem.php?acao=gerar_imagem&txt_largura=504&txt_altura=504&extensao=jpg&fundo_r=0.06274509803921569&fundo_g=0.996078431372549&fundo_b=0.9568627450980393&texto_r=0&texto_g=0&texto_b=0&texto=Gerador%20Imagem%20%234Devs&tamanho_fonte=10" class="d-flex"></img>
+                 <img class="imagem-projeto" src="images/hero-capa.png" class="d-flex"></img>
               </div>
             </div>
           </div>
           <div class="row d-flex justify-content-center">
             <div class="col-md-8 centralizado">
               <h2 class="mb-3 text-center">Introdução</h2>
-              <p>O ponto partida foram os feedbacks levantados na <a href="https://medium.com/lincoln-alves-product-designer/hero-parte-1-ou-desenhando-e-validando-uma-ideia-de-neg%C3%B3cio-585fd461a1c9">validação da ideia do negócio</a>. </br>
+              <p>O ponto partida foram os feedbacks levantados na <u><a href="https://medium.com/lincoln-alves-product-designer/hero-parte-1-ou-desenhando-e-validando-uma-ideia-de-neg%C3%B3cio-585fd461a1c9" target="_blank">validação da ideia do negócio</a></u>. </br>
               Além de mapear as dores e as necessidades dos usuários, conseguimos levantar as condições e hábitos de uso ao utilizar um gerenciador financeiro.</p>
             </div>
             <div>
@@ -108,14 +104,60 @@
               <p>
                 <img src="images/process.png" alt="" class="img-fluid">
               </p>
+              <!--start-->
+              <div id="ninja-slider">
+                  <div class="slider-inner">
+                      <ul>
+                          <li>
+                              <a class="ns-img" href="images/img1.png"></a>
+                          </li>
+                          <li><a class="ns-img" href="images/img2.png"></a>
+                          </li>
+                          <li>
+                              <a class="ns-img" href="images/img3.png"/></a>
+                          </li>
+                          <li>
+                              <a class="ns-img" href="images/img4.png"></a>
+                          </li>
+                          <li>
+                              <a class="ns-img" href="images/img5.png"></a>
+                          </li>
+                      </ul>
+                  <p class="text-center">Diagramas, fluxos e sketches</p>
+                  </div>
+              </div>
+              <!--end-->
             </div> <!-- .col-md-12 -->
             <div class="col-md-12">
               <h2 class="mb-3">Features</h2>
+              <div>
+                <h6 style="color:#504DEE;">Linha do tempo</h6>
+                <p style="margin-bottom: 40px;">Para atingir o objetivo de ser fácil de usar, estruturei a interface financeira em uma linha do tempo. Nossas personas já tinham experiência em interagir com esse formato, já que os aplicativos de suas contas bancárias utilizavam da mesma proposta - Isso fez com que a interface se mostrasse bastante intuitiva, com uma curva de aprendizagem baixa</p>
+                <img style=" margin: 0 auto; display: block; max-width: 800px;"src="images/linha-do-tempo.gif" alt="" class="img-fluid">
+              </div>
+              <div>
+                <h6 style="margin: 100px 0px 20px 0px; color:#504DEE;">Recorrência e checagem rápida</h6>
+                <p style="max-width: 800px; margin-bottom: 40px;">Produtividade era importante, então implementamos a funcionalidade de recorrência, que permite que o empreendedor cadastre transações que ocorrem todo mês ou são divididas em parcelas. Também desenhei uma forma de checagem rápida onde o usuário pode marcar como pago/recebido uma transação com apenas um click.</p>
+                <img src="images/img5.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="block-3 d-md-flex" style="margin-top: 100px">
+                <a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-4.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                </a>
+                <div class="text features order-1">
+                  <h6 style="color:#504DEE;">Alertas e diálogos</h6>
+                  <p>Nada de gráficos elaborados ou análises financeiras complexas, o que o micro e pequeno empreendedor mais quer é ficar em dia com seus pagamentos e recebimentos. Para ajudar esse empreendedor, projetamos na linha do tempo uma estrutura que prioriza o pagamento de contas atrasadas. Além disso desenhamos um fluxo conversacional que direciona o empreendedor a realizar suas tarefas diárias no gerenciador financeiro.</p>
+                  </div>
+              </div>
+              <div>
+                <h6 style="margin: 100px 0px 20px 0px; color:#504DEE;">Conciliação bancária</h6>
+                <p style="max-width: 800px; margin-bottom: 40px;">O maior desafio era pensar uma funcionalidade que ajudasse o empreendedor a fazer sua conciliação bancária - tarefa até então sempre feita pelo contador. Projetei um modelo de match, onde o sistema indica a transação cadastrada com a maior probabilidade de ser espelho do lançamento bancário. Toda a experiência foi pensada para concentrar o empreendedor a resolver uma conciliação por vez, a fim de garantir a assertividade das informações, algo imprescindível para o contador.</p>
+                <img src="images/img5.jpg" alt="" class="img-fluid">
+              </div>
             </div> <!-- .col-md-12 -->
+
           </div>
         </div>
       </section>
-      
       <footer class="container ftco-footer ftco-bg-dark ftco-section">
         <div class="block-3 d-md-flex">
           <div id="fotter-imagem" class="image order-2 d-flex justify-content-center align-items-center profile-foto" style="background-image: url('images/profile.jpg');" ></div>
@@ -127,7 +169,6 @@
                 <div class="divisao"></div>
                 <p class="bio"> Sou designer, adoro pensar e criar experiencias incríveis para as pessoas. Atuo com metodologias de design centrado no usuário, design thinking, service design e design sprint.</p>
                 <p class="assinatura">Lincoln Alves</br>Belo Horizonte, Brasil</p>
-
               </div>
           </div>
         </div>
@@ -141,7 +182,8 @@
     </div>
 
 
-    <script src="js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script  src="js/index.js"></script><script src="js/jquery.min.js"></script> 
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -158,6 +200,15 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
-    
+    <script type="text/javascript">
+    $(function(){
+      $('.slider').glide({
+        autoplay: 3500,
+        hoverpause: true, // set to false for nonstop rotate
+        arrowRightText: '&rarr;',
+        arrowLeftText: '&larr;'
+      });
+    });
+    </script>
   </body>
 </html>
